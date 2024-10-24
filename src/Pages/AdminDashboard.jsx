@@ -3,6 +3,7 @@ import '../styles/AdminDashboard.css';
 import { useNavigate } from 'react-router-dom';
 import { Button, Container } from 'react-bootstrap';
 import { toast } from 'react-toastify';
+import '../Styles/AdminDashboard.css';
 
 const AdminDashboard = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
