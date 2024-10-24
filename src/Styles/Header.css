@@ -1,0 +1,99 @@
+  /* src/Styles/Header.css */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2; /* Change to match your home page style */
+    padding: 10px 20px; /* Padding for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow logo to take available space */
+  }
+
+  .logo img {
+    width: 40px; /* Adjust logo size */
+    height: auto;
+    margin-right: 10px; /* Space between logo and brand name */
+  }
+
+  .brand-name {
+    color: #ffffff; /* Light color for brand name */
+    font-size: 24px; /* Font size for brand name */
+    font-weight: bold; /* Bold font */
+  }
+
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow nav buttons to take available space */
+    justify-content: flex-end; /* Align buttons to the right */
+    transition: max-height 0.3s ease; /* Smooth transition for menu */
+    max-height: 0; /* Initially hide the menu */
+    overflow: hidden; /* Hide overflow */
+  }
+
+  .nav-buttons.active {
+    max-height: 300px; /* Set a max height when active */
+  }
+
+  .local-timer {
+    color: #ffffff; /* Light color for timer */
+    margin-right: 20px; /* Space between timer and buttons */
+    display: flex;
+    align-items: center; /* Align clock icon and text */
+  }
+
+  .clock-icon {
+    margin-right: 5px; /* Space between icon and text */
+    color: #f1c40f; /* Color for the clock icon */
+  }
+
+  .nav-button {
+    color: #ffffff; /* Light color for buttons */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #e67e22; /* Button color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-left: 10px; /* Space between buttons */
+  }
+
+  .nav-button:hover {
+    background-color: #d35400; /* Darker background on hover */
+  }
+
+  /* Hamburger Menu */
+  .hamburger {
+    display: none; /* Hide hamburger by default */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 24px; /* Size of the hamburger icon */
+    color: #ffffff; /* Color of the hamburger icon */
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-buttons {
+      flex-direction: column; /* Stack buttons vertically */
+      align-items: flex-start; /* Align buttons to the start */
+      width: 100%; /* Full width for buttons */
+    }
+
+    .nav-button {
+      width: 100%; /* Full width for buttons */
+      text-align: center; /* Center text in buttons */
+      margin: 5px 0; /* Space between buttons */
+    }
+
+    .hamburger {
+      display: block; /* Show hamburger on small screens */
+    }
+
+    .navbar {
+      justify-content: space-between; /* Keep space between logo and hamburger */
+    }
+  }

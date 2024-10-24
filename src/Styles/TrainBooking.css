@@ -1,0 +1,30 @@
+/* TrainBooking.css */
+.train-booking-container {
+    padding: 20px;
+}
+
+.train-card {
+    border: 1px solid #007bff; /* Bootstrap primary color */
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.train-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.train-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.train-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+

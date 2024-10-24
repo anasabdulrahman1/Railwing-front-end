@@ -1,0 +1,255 @@
+/* .flight-booking-container {
+    padding: 20px;
+}
+
+.flight-card {
+    border: 1px solid #007bff; 
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.flight-card:hover {
+    transform: scale(1.05); 
+}
+
+.flight-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.flight-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px; 
+}
+
+.form-control {
+    margin-bottom: 20px; 
+}*/
+
+
+/* Main Container Styles */
+.flight-booking-container {
+    padding-top: 56px;
+    /* background-color: #f8f9fa; */
+    min-height: 100vh;
+}
+
+/* Navbar Customization */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Search Hero Section */
+.search-hero {
+    background: linear-gradient(135deg, #003580 0%, #1a4a8d 100%);
+    padding: 40px 0;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.search-hero h2 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Search Card Styles */
+.search-card {
+    transition: transform 0.2s ease;
+    border: none;
+}
+
+.search-card:hover {
+    transform: translateY(-2px);
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    padding: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #003580;
+    box-shadow: 0 0 0 0.2rem rgba(0,53,128,0.15);
+}
+
+/* Flight Cards */
+.flight-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flight-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.flight-card .card-title {
+    color: #003580;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.flight-card .card-text {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.flight-card .btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #003580;
+    border-color: #003580;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #002660;
+    border-color: #002660;
+    transform: translateY(-1px);
+}
+
+.btn-outline-light {
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+/* Modal Customization */
+.modal-content {
+    border-radius: 12px;
+    border: none;
+}
+
+.modal-header {
+    background-color: #003580;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 1rem 1.5rem;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    border-top: 1px solid #eee;
+    padding: 1rem 1.5rem;
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.alert-info {
+    background-color: #e6f3ff;
+    color: #004085;
+    border-left: 4px solid #004085;
+}
+
+/* FAQ and Travel Tips Sections */
+h2 {
+    color: #003580;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .search-hero {
+        padding: 20px 0;
+    }
+    
+    .flight-card {
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+/* Input Group Customization */
+.input-group-text {
+    background-color: #f8f9fa;
+    border-color: #e0e0e0;
+    color: #003580;
+}
+
+/* Loading States */
+.btn-primary:disabled {
+    background-color: #ccd7e6;
+    border-color: #ccd7e6;
+}
+
+/* Special Offer Banner */
+.alert-info.text-center {
+    background: linear-gradient(135deg, #e6f3ff 0%, #f0f7ff 100%);
+    padding: 1rem;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.alert-info.text-center strong {
+    color: #003580;
+}

@@ -1,0 +1,192 @@
+/* 
+
+.hero-section {
+    background: linear-gradient(135deg, #4a90e2 0%, #0072ff 100%);
+  }
+  
+  .highlight {
+    color: #ffc107;
+  }
+  
+  .custom-button, .custom-button-outline {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .custom-button-outline:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .section-heading::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ffc107;
+    margin: 0.5rem auto 1rem;
+  }
+  
+  .feature-card, .testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-primary {
+    color: #4a90e2;
+  }
+  
+  .testimonial-content {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+  } */
+
+
+ /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #eeddee;  */
+  }
+  
+  .min-vh-100 {
+    /* background-color: #eeddee;  */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, #b8a2b5 0%, #eeddee 100%);
+    color: #fff;
+    text-align: left;
+  }
+  
+  .hero-section .highlight {
+    color: #b8a2b5; /* Match highlight color with header/footer scheme */
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    color: #333; /* Darker text for contrast */
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    color: #444; /* Slightly muted for balance */
+  }
+  
+  .hero-section .custom-button, 
+  .hero-section .custom-button-outline {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .hero-section .custom-button:hover,
+  .hero-section .custom-button-outline:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
+  .hero-section .custom-button {
+    background-color: #b8a2b5;
+    color: #fff;
+  }
+  
+  .hero-section .custom-button-outline {
+    border: 2px solid #b8a2b5;
+    color: #333;
+  }
+  
+  /* Image in Hero Section */
+  .hero-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Features Section */
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #343a40;
+    text-transform: uppercase;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-primary {
+    color: #b8a2b5; /* Match the icon color */
+  }
+  
+  .feature-card h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .feature-card p {
+    color: #6c757d;
+  }
+  
+  /* Testimonials Section */
+  .testimonial-card {
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-content {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  .testimonial-card h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .testimonial-card small {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-section p {
+      font-size: 1.15rem;
+    }
+  }
+  
+  

@@ -1,0 +1,76 @@
+/* Footer.css */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* Light text color */
+  }
+  
+  footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    position: relative; /* Position relative for the pseudo-element */
+  }
+  
+  footer h5::after {
+    content: '';
+    display: block;
+    width: 10%; /* Set the desired width for the underline */
+    height: 2px; /* Height of the underline */
+    background-color: #ffffff; /* Underline color */
+    margin: 0 ; /* Center the underline */
+    margin-top: 5px; /* Space between the heading and underline */
+  }
+  
+  footer p {
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons a {
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .list-unstyled li a {
+    transition:  0.3s;
+    text-decoration: none;
+  }
+  
+  
+  .list-unstyled li a:hover {
+    color: #007bff; /* Change color on hover */
+    border-bottom: 1px solid ;
+  }
+  
+  .form-control {
+    border-radius: 20px; /* Rounded corners */
+  }
+  
+  button[type="submit"] {
+    border-radius: 20px; /* Rounded corners */
+    border-color: #ffc107;
+    background-color: #ffc107; 
+    color: #000000; 
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    font-weight: 400;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffc107; /* Warning color on hover */
+    color: #000000; /* Keep text color black on hover */
+    border-color: #ffc107;
+
+  }
+  
+  hr {
+    border-color: #ffffff; /* White color for separator */
+  }
+  
+  @media (max-width: 768px) {
+    .social-icons {
+      text-align: center; /* Center icons on smaller screens */
+    }
+  }
+  
+  

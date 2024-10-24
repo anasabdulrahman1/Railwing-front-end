@@ -1,0 +1,118 @@
+
+/* Styles for Registration Page */
+ .register-container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6fa; 
+}
+
+.register-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+}
+
+.register-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 24px; 
+}
+
+.register-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ffc107;
+    margin: 0.5rem auto 1rem;
+}
+
+.register-form-group {
+    margin-bottom: 20px;
+}
+
+.register-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.register-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register-error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.register-login-button {
+    background-color: transparent;
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
+.register-login-button:hover {
+    color: white;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    color: white;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+}
+
+.toast-success {
+    background-color: #2ecc71;
+}
+
+.toast-error {
+    background-color: #e74c3c;
+} 
+
+
+
+.register-ctr-main{
+    min-height: 90vh;
+    background-color: #f5f6fa;
+
+
+    
+}
+
+ .register-custom-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;          
+    border-radius: 10px;   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Body Padding for Navbar */
+body {
+  /* padding-top: 75px;  */
+  background-color: #f4f7f9; /* Light background for the body */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stylish Navbar */
+.stylish-navbar {
+  background-color: #343a40;
+  font-family: 'Roboto', sans-serif; /* Modern font for the header */
+  transition: background-color 0.3s ease;
+}
+
+.stylish-navbar:hover {
+  background-color: #23272b; /* Slightly darker background on hover */
+}
+
+/* Website Name Styling */
+.website-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8f9fa; /* White color for the brand */
+}
+
+/* Time Styling */
+.clock-icon {
+  font-size: 1.2rem;
+  color: #f8f9fa; /* White color for the clock icon */
+}
+
+.time-text {
+  font-size: 1.1rem;
+  color: #f8f9fa; /* White color for the time text */
+}
+
+/* Button Styling */
+.stylish-btn {
+  font-size: 0.95rem;
+  border-color: #ffc107;
+  color: #ffc107;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.stylish-btn:hover {
+  background-color: #ffc107;
+  color: #343a40;
+  border-color: #ffc107;
+}
+
+/* Toggler Button Customization */
+.custom-toggler {
+  border: none;
+}
+
+.custom-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
